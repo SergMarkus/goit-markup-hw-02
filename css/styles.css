@@ -21,7 +21,7 @@ body {
 }
 
 .logo-black {
-  color: rgba(0, 0, 0, 1);
+  color: #2e2f42;
 }
 .logo-white {
   color: #f4f4fd;
@@ -71,6 +71,10 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* address */
+.header-address {
+  font-style: normal;
+}
 /* section hero */
 .sec-hero {
   background: #2e2f42;
@@ -86,6 +90,8 @@ body {
 }
 
 .hero-button {
+  cursor: pointer;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -101,8 +107,8 @@ body {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.hero-button:hover 
-/* , .hero-button:focus */ {
+.hero-button:hover,
+.hero-button:focus {
   background: #404bbf;
 }
 
@@ -125,6 +131,12 @@ body {
   background: #f4f4fd;
 }
 
+.team-card {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
 .sec-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -132,11 +144,9 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
 
-/* .team-cards {
-  
-} */
+  text-transform: capitalize;
+}
 
 .name {
   font-weight: 500;
@@ -155,6 +165,8 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+
+  text-transform: capitalize;
 }
 
 .name-project-card {
